@@ -1,0 +1,10 @@
+2024-08-08 11:53:18,027 - root - ERROR - Error during MainWindow initialization
+Traceback (most recent call last):
+  File "/home/alekxoo/Documents/Data_Automation/src/main.py", line 136, in __init__
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+AttributeError: module 'ctypes' has no attribute 'windll'
+2024-08-08 11:54:46,077 - root - ERROR - Error during TDMS preprocessing
+Traceback (most recent call last):
+  File "/home/alekxoo/Documents/Data_Automation/src/main.py", line 238, in preprocess_tdms
+    state7_time_float = float(inputs["state7_time"])
+ValueError: could not convert string to float: ''
